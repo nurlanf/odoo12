@@ -30,7 +30,7 @@
             <field name="active" eval="True"/>
             <field name="arch" type="xml">
                 <data>
-                    <xpath expr="//field[@name='cash_rounding_id']" position="after">
+                    <xpath expr="//field[@name='payment_term_id']" position="after">
                         <field name="grey" string="Grey"/>
                     </xpath>
                 </data>
