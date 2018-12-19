@@ -1,1 +1,1 @@
-# odoo12
+# Adding related field from Journal Entry to Invoice
