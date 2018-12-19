@@ -1,0 +1,22 @@
+<odoo>
+    <data>
+                <!--Related Grey boolean on account invoice form -->
+        <record id="account_invoice_move_grey_boolean_form"
+                model="ir.ui.view">
+            <field name="field_parent" eval="False"/>
+            <field name="inherit_id" ref="account.invoice_form"/>
+            <field name="mode">extension</field>
+            <field name="model">account.invoice</field>
+            <field name="name">Grey boolean on account invoice</field>
+            <field name="type">form</field>
+            <field name="active" eval="True"/>
+            <field name="arch" type="xml">
+                <data>
+                    <xpath expr="//field[@name='cash_rounding_id']" position="after">
+                        <field name="grey" string="Grey"/>
+                    </xpath>
+                </data>
+            </field>
+        </record>
+    </data>
+</odoo>
