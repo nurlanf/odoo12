@@ -20,7 +20,7 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base','account_accountant'],
+    'depends': ['base','account_accountant','l10n_generic_coa'],
 
     # always loaded
     'data': [
