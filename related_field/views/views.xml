@@ -19,7 +19,7 @@
             </field>
         </record>
 
-        <record id="account_invoice_move_grey_boolean_form"
+        <!--record id="account_invoice_move_grey_boolean_form"
                 model="ir.ui.view">
             <field name="field_parent" eval="False"/>
             <field name="inherit_id" ref="account.invoice_form"/>
@@ -35,6 +35,6 @@
                     </xpath>
                 </data>
             </field>
-        </record>
+        </record-->
     </data>
 </odoo>
