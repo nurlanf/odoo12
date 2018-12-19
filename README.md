@@ -1,1 +1,1 @@
-# Adding related field from Journal Entry to Invoice
+# Adding related field from Journal Entry to Invoices
