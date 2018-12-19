@@ -25,4 +25,4 @@ class Grey(models.Model):
 class InvoiceGrey(models.Model):
     _inherit = 'account.invoice'
 
-    related_grey = fields.Boolean(related='move_id.grey', string="Grey")
+    grey = fields.Boolean(related='move_id.grey', string="Grey")
